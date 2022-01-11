@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Blog</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style-web.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<br><br>
+		<div class="container">
+			<br>
+			<header class="header">
+				<a name="atas">
+				<h1>TM PROJECT</h1>
+				<p>(Mahasiswa)</p>
+				<hr>
+			</header>
+			<br>
+			<nav class="navbar">
+				<a href="index.html">Home</a>
+				<a href="tentang.html">About Me</a>
+				<a href="kontak.html">Artikel</a>
+				<a href="buku_tamu.php">Buku Tamu</a>
+			</nav>
+			<h2 align="center">Artikel</h2>
+			<hr>
+				<ul type="square">
+					<li><h3 class="about__title">Pengertian Televisi</h3></li>
+						<p class="about__text">Televisi adalah teknologi yang dapat menampilkan dan menyiarkan sebuah 
+informasi baik nasional maupun internasional. Televisi dikemas  <a href="A11.2021.13270_Taopik Qoirul Mustopa_daskomtugas awal.pdf" target="_blank">Selengkapnya</a></p>
+						<small class="text-muted">10 Januari 2022</small>
+					<li><h3 class="about__title">Pejalan hidup</h3></li>
+						<p class="about__text">Seorang mukmin bukanlah tukang tuduh, bukan pula tukang laknat, tidak pula orang <a href="https://1drv.ms/p/s!Aue7hc_msMWTkkDWyseC9UjzAKkM?e=TIqid7" target="_blank">Selengkapnya</a></p>
+						<small class="text-muted">22 November 2018</small>
+					<li><h3 class="about__title">AL-QUR'AN DAN HADIST ADALAH PEDOMAN HIDUPKU</h3></li>
+						<p class="about__text">Hadist atau Sunnah adalah segala ucapan atau perkataan,perbuatan,serta ketetapan(taqrir) Nabi Muhammad saw.yang terlepas dari ​<a href="https://1drv.ms/p/s!Aue7hc_msMWTpH0d6Zo51G5OTFJh?e=WdaGCC" target="_blank">Selengkapnya</a></p>
+						<small class="text-muted">23 Februari 2019</small>
+			</ul>
+				<h2 align="center">Kontak Saya</h2>
+				<form action="#" nethod="POST" onsubmit="validasi()">
+					<div>
+						<label for="email"><b>Email :</b></label><br>
+						<input type="email" name="email" id="email" placeholder="Masukan Alamat Email: "  size="124"><br>
+					</div>
+					<br>
+					<div>
+						<label for="message"><b>Pesan :</b></label><br>
+						<textarea name="message" id="message"  placeholder="Silahkan Tuliskan Pesan Anda: " rows="7" cols="126"></textarea>
+					</div>
+					<br><br>
+					<div>
+					<button type="submit" value="kirim">Kirim</button>
+					</div>
+					<br><br><br>
+				</form>
+		</div>
+
+		<script type="text/Javascript">
+            function validasi (){
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
+                //console.log(nama);
+                var a1 ="Anda harus mengisi data ";
+
+                if(email == ""){
+                    a1 = a1 + "Email, ";
+                    // a1 = "Anda harus mengisi data nama,"; 
+                    console.log("Tidak ada email yang dimasukan");
+                }
+                if(message == ""){
+                    a1 = a1 + "Pesan.";
+                    // a1 = "Anda harus mengisi data alamat,";
+                    // a1 = "Anda harus mengisi data nama, alamat,"; 
+                    console.log("Tidak ada pesan yang ditulis");
+                }
+
+                if(a1 == "Anda harus mengisi data "){
+                    console.log("Data Anda Lengkap");
+                    alert("Data Anda Lengkap");
+                }
+                else{
+                    alert(a1);
+                }
+            }
+		</script>
+		<p align="right"><a href="#atas"> 
+		<img src="icon-atas.png" width="50px" height="50px">
+		</a></p>
+		<hr>
+		<center>
+			<footer style= "background-color: rgb(180, 179, 179); border-radius: 0px 0px 0px 0px ; padding: 10px 10px;">
+				Copyright &copy; 2021 by Taopik QM
+			</footer>
+		</center>
+	</body>
+</html>
