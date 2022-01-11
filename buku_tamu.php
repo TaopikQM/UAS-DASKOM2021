@@ -111,7 +111,7 @@
     <hr>
     <center>
         <footer style="background-color: rgb(180, 179, 179); border-radius: 0px 0px 0px 0px ; padding: 10px 10px;">
-            Copyright &copy; 2022 by Taopik QM
+           <p align="center"><b>Copyright &copy; 2022 by Taopik QM</b></p>
         </footer>
     </center>
 </body>
