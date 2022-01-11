@@ -51,10 +51,10 @@
             </div>
             <div>
                 Aktif pada Sosial Media:<br>
-                <input type="checkbox" name="medsos" value="Ya">Facebook
-                <input type="checkbox" name="medsos" value="Ya">Twitter
-                <input type="checkbox" name="medsos" value="Ya">Instagram
-                <input type="checkbox" name="medsos" value="Ya">path
+                <input type="checkbox" name="medsos" value="Facebook">Facebook
+                <input type="checkbox" name="medsos" value="Twitter">Twitter
+                <input type="checkbox" name="medsos" value="Instagram">Instagram
+                <input type="checkbox" name="medsos" value="path">path
                 <br><br>
             </div>
             <div>
